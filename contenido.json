@@ -1,0 +1,65 @@
+{
+    "contenido":[
+        {
+            "tag":"saludo",
+            "patrones":[
+                "hola","un saludo","hi","hello","Hol que tal"
+            ],
+            "respuestas":[
+                "Hola que tal!", "Como te va?","Un gusto conocerte"
+            ]          
+        },{
+            "tag":"despedida",
+            "patrones":[
+                "Adios","Hasta la proxima","Hasta luego"
+            ],
+            "respuestas":[
+                "Cuidate.", "Nos vemos pronto","Te estare esperando"
+            ]            
+        },{
+            "tag":"notresponse",
+            "patrones":["abcdefghijklmiopqrstuwxyz","12345678910","987654321","-*/+"],
+            "respuestas":[
+                "No entiendo tu pregunta","No es lo que esperba","Intente preguntar denuevo"
+            ]            
+        },{
+            "tag":"ignore",
+            "patrones":[],
+            "respuestas":[
+                "Intente preguntar nuevamente","No entiendo","Pregunte otra cosa"
+            ]            
+        },{
+            "tag":"next",
+            "patrones":["bien","correcto","se entendio","perfecto","entendido"],
+            "respuestas":[
+                "Deceas algo mas o eso es todo :D?","Necesitas algo mas :D?","Tienes algun otro problema?","Hay algo nuevo?"
+            ]            
+        },{
+            "tag":"next_response",
+            "patrones":["Dime tu","que hay de nuevo","para que estas diseñado?","cual estu proposito","cual es tu meta","en que me puedes ayudar","que temas relacionados tienes para mi"],
+            "respuestas":[
+                "Me crearon para responder tus necesidades acerca de emsamblajes de virus y haking no etico :v","Pregunta sobre el tema de los virus o haking","Tu pregunta y tratare de analizarlo","Sobre Haking,pentesting y otros temas"
+            ]            
+        },{
+            "tag":"virus_ransomware",
+            "patrones":["Que es un ransomware?","ransomware","Por que un ransomware?","Ramsomware"],
+            "respuestas":[
+                "Puedes buscarlo en internet :D","BLoquea informacion para luego pedir un rescate","Un Virus informatico."
+            ]            
+        },{
+            "tag":"virus_ransomware_ensamblaje",
+            "patrones":["crear un ramsomware","Como puedo crear un ramsomware?","como estan echos los ransomwares?","Son peligrosos los ramsomwares?","Que tan complejo es un ramsomware??"],
+            "respuestas":[
+                "Hace mucho fue muy sensillo crear ramsomwares","La creacion de un ramsomware puede llegar a ser muy compleja segun el dispositivo para el cual este diseñado",
+                "Aprente a programar en c++ y lo podras lograr","Los mejores ramsomwares estan diseñados en C++ o pascal incluso binario","Existen lenguajes de alto nivel que pueden hacerlo"]            
+        },{
+            "tag":"virus_troyano",
+            "patrones":["Que es un troyano?","Troyano","Por que un troyano?","Es bueno un troyano?"],
+            "respuestas":[
+                "Como en la pelicula de troya es simplemente igual solo que aun nivel informatico","Un virus troyano sirve para penetrar vulnerabilidades por medio de acciones primeramenta autorizadas para ganar privilegios",
+                "Un troyano puede tener dentro otros tipos de virus que pueden ser activados remotamente y generar aun mas daños",
+                "Conciderado una puerta tracera o backdor que sirve para conectar al atacante remotamente..."
+            ]            
+        }
+    ]
+}
